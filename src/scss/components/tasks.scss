@@ -1,0 +1,11 @@
+@use '../abstracts/colors.scss' as color;
+
+@mixin task {
+    background-color: color.$background-color;
+    padding: 15px;
+    border-radius: 15px;
+
+    h3 {
+        margin: 0;
+    }
+}
